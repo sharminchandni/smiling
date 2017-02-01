@@ -1,0 +1,136 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	color: #333;}
+img{max-width: 100%;
+	display:inline-block;
+}
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#header{
+	width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid #eee2e1;
+    box-shadow: 5px 5px #e5c775;
+    border-radius: 5px;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	background-color: #fbe1c3;
+}
+.logo{
+	width:10%;
+	float: left;
+}
+.logo img{}
+nav{
+	padding-top: 5px;
+	width: 90%;
+	float: left;}
+
+nav ul{    margin: 0;
+    padding: 0;
+margin-left: 100px;}
+
+nav ul li{list-style: none;
+    float: left;}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	color: #0e5e30;
+	transition: all 0.4s ease;
+}
+
+nav ul li a:hover{
+	background:#7d6267;
+    color: #edecf2;}
+.gallery{
+	display: block;
+    width: 25%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    background: #3a8c3e;
+}
+.galleries{
+	margin-top: 10px;
+}
+.gallery img{
+	min-height: 100%;
+	display: block;
+}
+
+.gallery .caption{
+	padding: 10px 10px;
+    background: rgba(5, 56, 10, 0.54);
+    color: #eee;
+}
+
+.gallery .caption h1{
+	font-size: 40px;
+    font-family: cursive;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    color: #ca1f37;}
+
+.gallery .caption p{
+	    margin-top: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e5c775;}
+
+.gallery .caption a{
+	    overflow: hidden;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #e579ff;}
+
+footer{
+	display: block;
+
+}
+.copyright{
+	width: 50%;
+	float: left;
+}
+.copyright p{
+margin: 0;
+	
+}
+.social{
+	width: 50%;
+	float: left;}
+.social ul{
+	margin: 0;
+	padding: 0;
+}
+.social ul li{	
+	float: right;
+	list-style: none;
+	font-size: 15px;
+	font-family:'Arsenal',sans-serif;
+	margin-right: 22px;}
+.social ul li a{
+	text-decoration: none;
+	color: #463f3a;
+	font-size: 18px;
+}
